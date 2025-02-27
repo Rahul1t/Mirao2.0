@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirao - AI ChatBot</title>
+    <link rel="stylesheet" href="Chatbot.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="chatbot-container">
+        <!-- Header -->
+        <div class="chatbot-header">
+            <div class="header-left">
+                <h2>Mirao</h2>
+                <p>Your AI Assistant</p>
+            </div>
+            <div class="profile-icon">
+                <i class="fas fa-user-circle"></i>
+                <div class="dropdown-content">
+                    <a href="#">Profile</a>
+                    <a href="#">Logout</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chat Body -->
+        <div class="chatbot-body">
+            <div class="message-container">
+                <div class="message bot-message">
+                    <p>Hello! I'm Mirao, your AI assistant. How can I help you today?</p>
+                </div>
+                <!-- More messages can be dynamically added here -->
+            </div>
+        </div>
+
+        <!-- Chat Footer -->
+    <div class="chatbot-footer">
+        <input type="text" id="user-input" placeholder="Type a message...">
+        <button id="voice-btn"><i class="fas fa-microphone"></i></button>
+        <button id="send-btn"><i class="fas fa-paper-plane"></i></button>
+    </div>
+
+    <script src="Chatbot.js"></script>
+</body>
+</html>
